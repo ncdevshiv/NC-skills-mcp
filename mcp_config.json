@@ -3,13 +3,8 @@
     "skills": {
       "command": "python",
       "args": ["F:/dev/skills_mcp.py"],
-      "env": {
-        "SYSTEM_PROMPT_PATH": "F:/dev/SYSTEM_PROMPT.md"
-      }
+      "disabled": false,
+      "alwaysAllow": ["find_skills", "list_skills", "get_skill", "get_categories"]
     }
-  },
-  "systemPrompt": {
-    "path": "F:/dev/SYSTEM_PROMPT.md",
-    "description": "Contains complete skill index with 928 skills organized into 19 categories, plus 11 production rules. Include this in agent context on initialization."
   }
 }
