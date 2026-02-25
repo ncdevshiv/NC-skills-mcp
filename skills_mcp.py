@@ -5,11 +5,13 @@ Implements the MCP stdio protocol for communication with the host
 """
 
 import json
+import os
 import sys
 from pathlib import Path
 from typing import Any, Optional
 
 SKILLS_DIR = Path(__file__).parent / "skills"
+SYSTEM_PROMPT_PATH = os.environ.get("SYSTEM_PROMPT_PATH", "")
 
 
 def get_skill_metadata(skill_path: Path) -> Optional[dict]:
@@ -167,11 +169,20 @@ class MCPServer:
     def initialize(self, params: dict) -> dict:
         """Handle initialize request"""
         self._initialized = True
-        return {
+        result = {
             "protocolVersion": params.get("protocolVersion", "2024-11-05"),
             "capabilities": self.capabilities,
             "serverInfo": self.server_info
         }
+        
+        # Load and include system prompt if configured
+        if SYSTEM_PROMPT_PATH:
+            system_prompt_file = Path(SYSTEM_PROMPT_PATH)
+            if system_prompt_file.exists():
+                system_prompt = system_prompt_file.read_text(encoding="utf-8")
+                result["systemPrompt"] = system_prompt
+        
+        return result
     
     def list_tools(self) -> dict:
         return {
