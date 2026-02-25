@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "skills": {
+      "command": "python",
+      "args": ["F:/dev/skills_mcp.py"],
+      "env": {}
+    }
+  }
+}
