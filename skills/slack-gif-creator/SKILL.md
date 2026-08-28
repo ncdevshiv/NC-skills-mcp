@@ -1,6 +1,6 @@
 ---
 name: slack-gif-creator
-description: "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like "..."
+description: 'Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like "...'
 metadata:
   author: ncdevshiv
   version: "1.0"
@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: other
+intent: build
+quality_score: 0.9
 ---
 
 

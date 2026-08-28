@@ -1,10 +1,36 @@
 {
   "mcpServers": {
     "skills": {
-      "command": "python",
-      "args": ["F:/dev/skills_mcp.py"],
+      "command": "F:/NC-skills-mcp/target/debug/skills-mcp-server.exe",
+      "args": [],
+      "cwd": "F:/NC-skills-mcp",
       "disabled": false,
-      "alwaysAllow": ["find_skills", "list_skills", "get_skill", "get_categories"]
+      "alwaysAllow": ["find_skills", "get_skill", "get_skill_summary", "list_skills", "get_categories", "browse_tree", "route", "verify_skill", "add_skill"],
+      "env": {},
+      "timeout": 30,
+      "description": "Rust — MCP 2025-11-25, 929 skills, pagination + security gates. Built via `cargo build`."
+    },
+    "skills-python-legacy": {
+      "command": "python",
+      "args": ["F:/NC-skills-mcp/skills_mcp.py"],
+      "cwd": "F:/NC-skills-mcp",
+      "disabled": true,
+      "alwaysAllow": ["find_skills", "get_skill", "list_skills", "get_categories"],
+      "note": "Python fallback — use Rust primary above. Run `python skills_mcp.py` for legacy."
+    },
+    "skills-http": {
+      "command": "F:/NC-skills-mcp/target/debug/skills-mcp-server.exe",
+      "args": ["--http", "--port", "3000"],
+      "cwd": "F:/NC-skills-mcp",
+      "disabled": true,
+      "note": "Rust Streamable HTTP — POST http://127.0.0.1:3000/mcp  | health http://127.0.0.1:3000/health"
+    },
+    "skills-http-python": {
+      "command": "python",
+      "args": ["F:/NC-skills-mcp/skills_mcp.py", "--http", "--port", "3000"],
+      "cwd": "F:/NC-skills-mcp",
+      "disabled": true,
+      "note": "Python HTTP fallback"
     }
   }
 }

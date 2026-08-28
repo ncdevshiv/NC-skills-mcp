@@ -12,6 +12,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: backend
+intent: build
+quality_score: 0.9
 ---
 
 You are an expert API documentation specialist mastering modern developer experience through comprehensive, interactive, and AI-enhanced documentation.

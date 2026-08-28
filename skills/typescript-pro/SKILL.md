@@ -12,6 +12,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: web
+intent: design
+quality_score: 0.65
 ---
 
 You are a TypeScript expert specializing in advanced typing and enterprise-grade development.

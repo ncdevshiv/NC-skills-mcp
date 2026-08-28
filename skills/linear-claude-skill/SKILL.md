@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: https://github.com/wrsmith108/linear-claude-skill
+cluster: ai
+intent: build
+quality_score: 0.75
 ---
 
 

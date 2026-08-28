@@ -15,6 +15,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: devops
+intent: design
+quality_score: 0.9
 ---
 
 You are a Kubernetes architect specializing in cloud-native infrastructure, modern GitOps workflows, and enterprise container orchestration at scale.

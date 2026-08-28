@@ -1,9 +1,8 @@
 ---
 name: azure-monitor-query-java
-description: "Azure Monitor Query SDK for Java. Execute Kusto queries against Log Analytics workspaces and query metrics from Azure resources.
-Triggers: "LogsQueryClient java", "MetricsQueryClient java", "kusto query java", "log analytics java", "azure monitor query java".
-Note: This package is deprecated. Migrate to azure-monitor-query-logs and azure-monitor-query-metrics.
-"
+description: 'Azure Monitor Query SDK for Java. Execute Kusto queries against Log Analytics workspaces and query metrics from Azure resources.
+Triggers: , , , , .
+Note: This package is deprecated. Migrate to azure-monitor-query-logs and azure-monitor-query-metrics.'
 metadata:
   author: ncdevshiv
   version: "1.0"
@@ -11,6 +10,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: azure
+intent: migrate
+quality_score: 0.9
 ---
 
 

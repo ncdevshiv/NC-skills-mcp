@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: https://github.com/CloudAI-X/threejs-skills
+cluster: other
+intent: build
+quality_score: 0.9
 ---
 
 

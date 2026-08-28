@@ -12,6 +12,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: web
+intent: design
+quality_score: 0.9
 ---
 
 You are a frontend development expert specializing in modern React applications, Next.js, and cutting-edge frontend architecture.

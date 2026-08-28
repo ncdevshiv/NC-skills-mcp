@@ -1,6 +1,6 @@
 ---
 name: cloud-penetration-testing
-description: "This skill should be used when the user asks to "perform cloud penetration testing", "assess Azure or AWS or GCP security", "enumerate cloud resources", "exploit cloud misconfiguratio..."
+description: 'This skill should be used when the user asks to "perform cloud penetration testing", "assess Azure or AWS or GCP security", "enumerate cloud resources", "exploit cloud misconfiguratio...'
 metadata:
   author: ncdevshiv
   version: "1.1"
@@ -12,6 +12,9 @@ access_control:
   requires_authorization: true
   authorized_only: true
   warning: "This skill involves security testing. Ensure you have explicit written authorization before proceeding."
+cluster: security
+intent: automate
+quality_score: 0.9
 ---
 
 

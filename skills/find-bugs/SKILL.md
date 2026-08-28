@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/find-bugs
+cluster: other
+intent: audit
+quality_score: 0.8
 ---
 
 

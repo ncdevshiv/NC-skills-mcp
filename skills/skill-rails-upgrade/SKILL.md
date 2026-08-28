@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: https://github.com/robzolkos/skill-rails-upgrade
+cluster: other
+intent: audit
+quality_score: 0.75
 ---
 
 

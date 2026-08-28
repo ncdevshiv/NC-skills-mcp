@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: personal
+cluster: backend
+intent: build
+quality_score: 0.9
 ---
 
 

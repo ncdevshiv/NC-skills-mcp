@@ -1,0 +1,15 @@
+# Rust build output (1.6GB) — never commit
+/target/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Local agent tool session data
+.omo/
+
+# Generated SQLite index (fallback for JSON; rebuild with `python build_sqlite.py`)
+skills-index.db
+
+# Logs
+*.log

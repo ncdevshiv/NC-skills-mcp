@@ -1,8 +1,7 @@
 ---
 name: azure-monitor-opentelemetry-exporter-py
-description: "Azure Monitor OpenTelemetry Exporter for Python. Use for low-level OpenTelemetry export to Application Insights.
-Triggers: "azure-monitor-opentelemetry-exporter", "AzureMonitorTraceExporter", "AzureMonitorMetricExporter", "AzureMonitorLogExporter".
-"
+description: 'Azure Monitor OpenTelemetry Exporter for Python. Use for low-level OpenTelemetry export to Application Insights.
+Triggers: , , , .'
 metadata:
   author: ncdevshiv
   version: "1.0"
@@ -10,6 +9,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: azure
+intent: build
+quality_score: 0.8
 ---
 
 

@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: official
 source: personal
+cluster: other
+intent: audit
+quality_score: 0.65
 ---
 
 

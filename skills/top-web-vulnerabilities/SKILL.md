@@ -1,6 +1,6 @@
 ---
 name: top-web-vulnerabilities
-description: "This skill should be used when the user asks to "identify web application vulnerabilities", "explain common security flaws", "understand vulnerability categories", "learn about inject..."
+description: 'This skill should be used when the user asks to "identify web application vulnerabilities", "explain common security flaws", "understand vulnerability categories", "learn about inject...'
 metadata:
   author: ncdevshiv
   version: "1.1"
@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: web
+intent: test
+quality_score: 0.9
 ---
 
 

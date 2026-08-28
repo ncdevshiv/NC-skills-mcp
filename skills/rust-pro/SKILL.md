@@ -12,6 +12,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: other
+intent: build
+quality_score: 0.9
 ---
 
 You are a Rust expert specializing in modern Rust 1.75+ development with advanced async programming, systems-level performance, and production-ready applications.

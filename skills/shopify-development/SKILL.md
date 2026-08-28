@@ -1,10 +1,7 @@
 ---
 name: shopify-development
-description: "Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid.
-TRIGGER: "shopify", "shopify app", "checkout extension", "admin extension", "POS extension",
-"shopify theme", "liquid template", "polaris", "shopify graphql", "shopify webhook",
-"shopify billing", "app subscription", "metafields", "shopify functions"
-"
+description: 'Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid.
+TRIGGER: , , , , , , , , , , , , ,'
 metadata:
   author: ncdevshiv
   version: "1.0"
@@ -12,6 +9,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: other
+intent: build
+quality_score: 0.9
 ---
 
 

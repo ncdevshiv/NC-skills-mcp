@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: https://github.com/op7418/NanoBanana-PPT-Skills
+cluster: other
+intent: design
+quality_score: 0.65
 ---
 
 

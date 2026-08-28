@@ -1,8 +1,7 @@
 ---
 name: azure-ai-ml-py
-description: "Azure Machine Learning SDK v2 for Python. Use for ML workspaces, jobs, models, datasets, compute, and pipelines.
-Triggers: "azure-ai-ml", "MLClient", "workspace", "model registry", "training jobs", "datasets".
-"
+description: 'Azure Machine Learning SDK v2 for Python. Use for ML workspaces, jobs, models, datasets, compute, and pipelines.
+Triggers: , , , , , .'
 metadata:
   author: ncdevshiv
   version: "1.0"
@@ -10,6 +9,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: ai
+intent: build
+quality_score: 0.9
 ---
 
 

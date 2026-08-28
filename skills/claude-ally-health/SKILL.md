@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: https://github.com/huifer/Claude-Ally-Health
+cluster: ai
+intent: design
+quality_score: 0.65
 ---
 
 

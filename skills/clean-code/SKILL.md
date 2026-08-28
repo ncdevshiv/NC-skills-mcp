@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: ClawForge (https://github.com/jackjin1997/ClawForge)
+cluster: other
+intent: audit
+quality_score: 0.8
 ---
 
 

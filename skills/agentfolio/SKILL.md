@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: agentfolio.io
+cluster: other
+intent: automate
+quality_score: 0.9
 ---
 
 

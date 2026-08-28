@@ -1,6 +1,6 @@
 ---
 name: active-directory-attacks
-description: "This skill should be used when the user asks to "attack Active Directory", "exploit AD", "Kerberoasting", "DCSync", "pass-the-hash", "BloodHound enumeration", "Golden Ticket", ..."
+description: 'This skill should be used when the user asks to "attack Active Directory", "exploit AD", "Kerberoasting", "DCSync", "pass-the-hash", "BloodHound enumeration", "Golden Ticket", ...'
 metadata:
   author: ncdevshiv
   version: "1.1"
@@ -12,6 +12,9 @@ access_control:
   requires_authorization: true
   authorized_only: true
   warning: "This skill involves security testing. Ensure you have explicit written authorization before proceeding."
+cluster: security
+intent: test
+quality_score: 0.9
 ---
 
 

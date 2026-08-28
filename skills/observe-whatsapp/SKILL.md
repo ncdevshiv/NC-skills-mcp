@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: https://github.com/gokapso/agent-skills/tree/master/skills/observe-whatsapp
+cluster: other
+intent: debug
+quality_score: 0.9
 ---
 
 

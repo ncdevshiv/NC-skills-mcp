@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: vibeship-spawner-skills (Apache 2.0)
+cluster: ai
+intent: test
+quality_score: 0.75
 ---
 
 

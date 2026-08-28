@@ -1,6 +1,6 @@
 ---
 name: aws-penetration-testing
-description: "This skill should be used when the user asks to "pentest AWS", "test AWS security", "enumerate IAM", "exploit cloud infrastructure", "AWS privilege escalation", "S3 bucket testing..."
+description: 'This skill should be used when the user asks to "pentest AWS", "test AWS security", "enumerate IAM", "exploit cloud infrastructure", "AWS privilege escalation", "S3 bucket testing...'
 metadata:
   author: ncdevshiv
   version: "1.1"
@@ -12,6 +12,9 @@ access_control:
   requires_authorization: true
   authorized_only: true
   warning: "This skill involves security testing. Ensure you have explicit written authorization before proceeding."
+cluster: aws
+intent: test
+quality_score: 0.9
 ---
 
 

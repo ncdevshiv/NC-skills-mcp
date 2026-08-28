@@ -1,6 +1,6 @@
 ---
 name: ethical-hacking-methodology
-description: "This skill should be used when the user asks to "learn ethical hacking", "understand penetration testing lifecycle", "perform reconnaissance", "conduct security scanning", "exploit ..."
+description: 'This skill should be used when the user asks to "learn ethical hacking", "understand penetration testing lifecycle", "perform reconnaissance", "conduct security scanning", "exploit ...'
 metadata:
   author: ncdevshiv
   version: "1.1"
@@ -12,6 +12,9 @@ access_control:
   requires_authorization: true
   authorized_only: true
   warning: "This skill involves security testing. Ensure you have explicit written authorization before proceeding."
+cluster: security
+intent: audit
+quality_score: 0.9
 ---
 
 

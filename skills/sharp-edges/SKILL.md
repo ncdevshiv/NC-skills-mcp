@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: https://github.com/trailofbits/skills/tree/main/plugins/sharp-edges
+cluster: other
+intent: audit
+quality_score: 0.9
 ---
 
 

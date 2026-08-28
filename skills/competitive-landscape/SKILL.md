@@ -1,10 +1,7 @@
 ---
 name: competitive-landscape
-description: "This skill should be used when the user asks to \\\"analyze
-competitors", "assess competitive landscape", "identify differentiation",
-"evaluate market positioning", "apply Porter's Five Forces", or requests
-competitive strategy analysis.
-"
+description: 'This skill should be used when the user asks to \\\ , , , , , or requests
+competitive strategy analysis.'
 metadata:
   author: ncdevshiv
   version: "1.0.0"
@@ -12,6 +9,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: other
+intent: build
+quality_score: 0.75
 ---
 
 

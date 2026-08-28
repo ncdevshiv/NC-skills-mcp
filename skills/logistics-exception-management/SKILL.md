@@ -9,6 +9,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: https://github.com/ai-evos/agent-skills
+cluster: other
+intent: automate
+quality_score: 0.9
 ---
 
 

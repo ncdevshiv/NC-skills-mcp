@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: architecture
+intent: audit
+quality_score: 0.9
 ---
 
 You are a master software architect specializing in modern software architecture patterns, clean architecture principles, and distributed systems design.

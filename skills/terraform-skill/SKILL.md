@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: https://github.com/antonbabenko/terraform-skill
+cluster: devops
+intent: test
+quality_score: 0.75
 ---
 
 # Terraform Skill for Claude

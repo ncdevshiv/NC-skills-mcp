@@ -1,6 +1,6 @@
 ---
 name: privilege-escalation-methods
-description: "This skill should be used when the user asks to "escalate privileges", "get root access", "become administrator", "privesc techniques", "abuse sudo", "exploit SUID binaries", "K..."
+description: 'This skill should be used when the user asks to "escalate privileges", "get root access", "become administrator", "privesc techniques", "abuse sudo", "exploit SUID binaries", "K...'
 metadata:
   author: ncdevshiv
   version: "1.1"
@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: other
+intent: test
+quality_score: 0.9
 ---
 
 

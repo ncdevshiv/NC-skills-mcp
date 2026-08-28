@@ -15,6 +15,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: database
+intent: design
+quality_score: 0.9
 ---
 
 You are a database architect specializing in designing scalable, performant, and maintainable data layers from the ground up.

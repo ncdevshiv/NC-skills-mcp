@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: https://github.com/expo/skills/tree/main/plugins/upgrading-expo
+cluster: other
+intent: migrate
+quality_score: 0.65
 ---
 
 

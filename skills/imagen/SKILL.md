@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen
+cluster: other
+intent: build
+quality_score: 0.75
 ---
 
 

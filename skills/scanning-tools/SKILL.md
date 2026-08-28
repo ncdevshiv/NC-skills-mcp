@@ -1,6 +1,6 @@
 ---
 name: scanning-tools
-description: "This skill should be used when the user asks to "perform vulnerability scanning", "scan networks for open ports", "assess web application security", "scan wireless networks", "detec..."
+description: 'This skill should be used when the user asks to "perform vulnerability scanning", "scan networks for open ports", "assess web application security", "scan wireless networks", "detec...'
 metadata:
   author: ncdevshiv
   version: "1.1"
@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: other
+intent: audit
+quality_score: 0.9
 ---
 
 

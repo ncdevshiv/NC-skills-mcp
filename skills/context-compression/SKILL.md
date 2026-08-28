@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-compression
+cluster: other
+intent: build
+quality_score: 0.9
 ---
 
 # Context Compression Strategies

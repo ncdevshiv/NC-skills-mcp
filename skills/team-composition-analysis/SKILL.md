@@ -1,10 +1,7 @@
 ---
 name: team-composition-analysis
-description: "This skill should be used when the user asks to \\\"plan team
-structure", "determine hiring needs", "design org chart", "calculate
-compensation", "plan equity allocation", or requests organizational design and
-headcount planning for a startup.
-"
+description: 'This skill should be used when the user asks to \\\ , , , , , or requests organizational design and
+headcount planning for a startup.'
 metadata:
   author: ncdevshiv
   version: "1.0.0"
@@ -12,6 +9,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: other
+intent: build
+quality_score: 0.9
 ---
 
 

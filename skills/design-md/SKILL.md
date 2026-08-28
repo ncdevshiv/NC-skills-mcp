@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: https://github.com/google-labs-code/stitch-skills/tree/main/skills/design-md
+cluster: product
+intent: build
+quality_score: 0.9
 ---
 
 

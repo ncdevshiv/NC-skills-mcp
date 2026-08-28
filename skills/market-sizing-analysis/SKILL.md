@@ -1,10 +1,7 @@
 ---
 name: market-sizing-analysis
-description: "This skill should be used when the user asks to \\\"calculate TAM\\\",
-"determine SAM", "estimate SOM", "size the market", "calculate market
-opportunity", "what's the total addressable market", or requests market sizing
-analysis for a startup or business opportunity.
-"
+description: 'This skill should be used when the user asks to \\\ , , , , , , or requests market sizing
+analysis for a startup or business opportunity.'
 metadata:
   author: ncdevshiv
   version: "1.0.0"
@@ -12,6 +9,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: other
+intent: build
+quality_score: 0.9
 ---
 
 
