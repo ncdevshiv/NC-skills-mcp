@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: https://github.com/zarazhangrui/frontend-slides
+cluster: web
+intent: build
+quality_score: 0.9
 ---
 
 

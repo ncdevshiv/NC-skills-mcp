@@ -11,6 +11,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: other
+intent: design
+quality_score: 0.9
 ---
 
 

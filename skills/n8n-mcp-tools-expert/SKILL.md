@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-mcp-tools-expert
+cluster: other
+intent: build
+quality_score: 0.9
 ---
 
 

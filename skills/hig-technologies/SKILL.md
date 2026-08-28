@@ -1,7 +1,6 @@
 ---
 name: hig-technologies
-description: "Apple HIG guidance for Apple technology integrations: Siri, Apple Pay, HealthKit, HomeKit, ARKit, machine learning, generative AI, iCloud, Sign in with Apple, SharePlay, CarPlay, Game Center, in-app purchase, NFC, Wallet, VoiceOver, Maps, Mac Catalyst, and more. Use when asked about: "Siri integration", "Apple Pay", "HealthKit", "HomeKit", "ARKit", "augmented reality", "machine learning", "generative AI", "iCloud sync", "Sign in with Apple", "SharePlay", "CarPlay", "in-app purchase", "NFC", "VoiceOver", "Maps", "Mac Catalyst". Also use when the user says "how do I integrate Siri," "what are the Apple Pay guidelines," "how should my AR experience work," "how do I use Sign in with Apple," or asks about any Apple framework or service integration. Cross-references: hig-inputs for input methods, hig-components-system for widgets.
-"
+description: 'Apple HIG guidance for Apple technology integrations: Siri, Apple Pay, HealthKit, HomeKit, ARKit, machine learning, generative AI, iCloud, Sign in with Apple, SharePlay, CarPlay, Game Center, in-app purchase, NFC, Wallet, VoiceOver, Maps, Mac Catalyst, and more. Use when asked about: , , , , , , , , , , , , , , , , . Also use when the user says or asks about any Apple framework or service integration. Cross-references: hig-inputs for input methods, hig-components-system for widgets.'
 metadata:
   author: ncdevshiv
   version: "1.0.0"
@@ -9,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: other
+intent: build
+quality_score: 0.9
 ---
 
 

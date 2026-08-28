@@ -1,8 +1,7 @@
 ---
 name: azure-ai-contentsafety-py
-description: "Azure AI Content Safety SDK for Python. Use for detecting harmful content in text and images with multi-severity classification.
-Triggers: "azure-ai-contentsafety", "ContentSafetyClient", "content moderation", "harmful content", "text analysis", "image analysis".
-"
+description: 'Azure AI Content Safety SDK for Python. Use for detecting harmful content in text and images with multi-severity classification.
+Triggers: , , , , , .'
 metadata:
   author: ncdevshiv
   version: "1.0"
@@ -10,6 +9,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: ai
+intent: build
+quality_score: 0.9
 ---
 
 

@@ -12,6 +12,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: web
+intent: build
+quality_score: 0.65
 ---
 
 You are a JavaScript expert specializing in modern JS and async programming.

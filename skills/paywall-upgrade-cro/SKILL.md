@@ -1,6 +1,6 @@
 ---
 name: paywall-upgrade-cro
-description: "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions "paywall," "upgrade screen," "upgrade modal,..."
+description: 'When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions "paywall," "upgrade screen," "upgrade modal,...'
 metadata:
   author: ncdevshiv
   version: "1.0"
@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: other
+intent: audit
+quality_score: 0.9
 ---
 
 

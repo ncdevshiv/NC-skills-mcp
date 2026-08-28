@@ -4,7 +4,7 @@ import yaml
 from pathlib import Path
 from datetime import datetime
 
-SKILLS_DIR = Path("F:/dev/skills")
+SKILLS_DIR = Path(__file__).parent / "skills"
 AUTHOR = "ncdevshiv"
 DEFAULT_VERSION = "1.0"
 

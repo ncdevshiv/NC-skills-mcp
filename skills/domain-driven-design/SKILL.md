@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: self
+cluster: other
+intent: design
+quality_score: 0.9
 ---
 
 

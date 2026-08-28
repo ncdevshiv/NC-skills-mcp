@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: aws
+intent: design
+quality_score: 0.9
 ---
 
 You are an expert in Terraform for AWS specializing in reusable module design, state management, and production-grade HCL patterns.

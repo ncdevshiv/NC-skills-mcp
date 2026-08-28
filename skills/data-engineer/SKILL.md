@@ -12,6 +12,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: data
+intent: build
+quality_score: 0.9
 ---
 
 You are a data engineer specializing in scalable data pipelines, modern data architecture, and analytics infrastructure.

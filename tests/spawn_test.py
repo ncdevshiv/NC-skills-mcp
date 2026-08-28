@@ -1,0 +1,35 @@
+import subprocess, json, time, sys
+bin = "target/release/skills-mcp-server.exe"
+print("=== SPAWN TEST (release, fastest) ===")
+start = time.time()
+p = subprocess.Popen([bin], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, bufsize=1)
+s = time.time()
+p.stdin.write(json.dumps({"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{}}}) + "\n")
+p.stdin.flush()
+r = json.loads(p.stdout.readline())
+print(f"cold start {(time.time()-s)*1000:.1f}ms init {r['result']['protocolVersion']}")
+p.stdin.write(json.dumps({"jsonrpc":"2.0","method":"notifications/initialized"}) + "\n")
+p.stdin.flush()
+time.sleep(0.05)
+s = time.time()
+p.stdin.write(json.dumps({"jsonrpc":"2.0","id":2,"method":"tools/call","params":{"name":"find_skills","arguments":{"query":"fastapi","limit":1}}}) + "\n")
+p.stdin.flush()
+r2 = json.loads(p.stdout.readline())
+print(f"find_skills {(time.time()-s)*1000:.1f}ms -> {json.loads(r2['result']['content'][0]['text'])['skills'][0]['name']}")
+# auto-close
+p.stdin.close()
+try:
+    p.wait(timeout=2)
+    print(f"auto-close OK exit={p.returncode} after EOF (host kills on idle)")
+except:
+    p.kill()
+    print("auto-close FAIL still alive")
+# re-spawn proves host can re-create
+p2 = subprocess.Popen([bin], stdin=subprocess.PIPE, stdout=subprocess.PIPE, text=True, bufsize=1)
+p2.stdin.write(json.dumps({"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{}}}) + "\n")
+p2.stdin.flush()
+r3 = json.loads(p2.stdout.readline())
+print(f"re-spawn OK {r3['result']['protocolVersion']}")
+p2.terminate()
+p2.wait(timeout=1)
+print(f"total { (time.time()-start)*1000:.0f}ms - host will auto-spawn on next agent call")

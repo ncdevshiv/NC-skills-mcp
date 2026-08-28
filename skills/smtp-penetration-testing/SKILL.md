@@ -1,6 +1,6 @@
 ---
 name: smtp-penetration-testing
-description: "This skill should be used when the user asks to "perform SMTP penetration testing", "enumerate email users", "test for open mail relays", "grab SMTP banners", "brute force email cre..."
+description: 'This skill should be used when the user asks to "perform SMTP penetration testing", "enumerate email users", "test for open mail relays", "grab SMTP banners", "brute force email cre...'
 metadata:
   author: ncdevshiv
   version: "1.1"
@@ -12,6 +12,9 @@ access_control:
   requires_authorization: true
   authorized_only: true
   warning: "This skill involves security testing. Ensure you have explicit written authorization before proceeding."
+cluster: security
+intent: test
+quality_score: 0.9
 ---
 
 

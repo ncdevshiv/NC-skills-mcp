@@ -1,8 +1,7 @@
 ---
 name: azure-storage-blob-rust
-description: "Azure Blob Storage SDK for Rust. Use for uploading, downloading, and managing blobs and containers.
-Triggers: "blob storage rust", "BlobClient rust", "upload blob rust", "download blob rust", "container rust".
-"
+description: 'Azure Blob Storage SDK for Rust. Use for uploading, downloading, and managing blobs and containers.
+Triggers: , , , , .'
 metadata:
   author: ncdevshiv
   version: "1.0"
@@ -10,6 +9,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: azure
+intent: build
+quality_score: 0.9
 ---
 
 

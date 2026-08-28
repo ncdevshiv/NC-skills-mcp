@@ -14,6 +14,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: devops
+intent: automate
+quality_score: 0.9
 ---
 
 You are a Terraform/OpenTofu specialist focused on advanced infrastructure automation, state management, and modern IaC practices.

@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/iterate-pr
+cluster: other
+intent: automate
+quality_score: 0.9
 ---
 
 

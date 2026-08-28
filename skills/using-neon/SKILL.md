@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: https://github.com/neondatabase/agent-skills/tree/main/skills/neon-postgres
+cluster: other
+intent: design
+quality_score: 0.9
 ---
 
 

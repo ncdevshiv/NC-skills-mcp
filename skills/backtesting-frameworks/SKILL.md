@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: testing
+intent: build
+quality_score: 0.75
 ---
 
 

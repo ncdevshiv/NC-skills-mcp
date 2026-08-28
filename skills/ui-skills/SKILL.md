@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: https://github.com/ibelick/ui-skills
+cluster: product
+intent: build
+quality_score: 0.65
 ---
 
 

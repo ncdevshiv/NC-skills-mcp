@@ -1,8 +1,7 @@
 ---
 name: azure-eventgrid-py
-description: "Azure Event Grid SDK for Python. Use for publishing events, handling CloudEvents, and event-driven architectures.
-Triggers: "event grid", "EventGridPublisherClient", "CloudEvent", "EventGridEvent", "publish events".
-"
+description: 'Azure Event Grid SDK for Python. Use for publishing events, handling CloudEvents, and event-driven architectures.
+Triggers: , , , , .'
 metadata:
   author: ncdevshiv
   version: "1.0"
@@ -10,6 +9,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: azure
+intent: build
+quality_score: 0.9
 ---
 
 

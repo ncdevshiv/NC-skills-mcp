@@ -1,7 +1,6 @@
 ---
 name: hig-components-status
-description: "Apple HIG guidance for status and progress UI components including progress indicators, status bars, and activity rings. Use this skill when asked about: "progress indicator", "progress bar", "loading spinner", "status bar", "activity ring", "progress display", determinate vs indeterminate progress, loading states, or fitness tracking rings. Also use when the user says "how do I show loading state," "should I use a spinner or progress bar," "what goes in the status bar," or asks about activity indicators. Cross-references: hig-components-system for widgets and complications, hig-inputs for gesture-driven progress controls, hig-technologies for HealthKit and activity ring data integration.
-"
+description: 'Apple HIG guidance for status and progress UI components including progress indicators, status bars, and activity rings. Use this skill when asked about: , , , , , , determinate vs indeterminate progress, loading states, or fitness tracking rings. Also use when the user says or asks about activity indicators. Cross-references: hig-components-system for widgets and complications, hig-inputs for gesture-driven progress controls, hig-technologies for HealthKit and activity ring data integration.'
 metadata:
   author: ncdevshiv
   version: "1.0.0"
@@ -9,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: other
+intent: design
+quality_score: 0.9
 ---
 
 

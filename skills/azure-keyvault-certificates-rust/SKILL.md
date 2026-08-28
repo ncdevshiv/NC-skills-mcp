@@ -1,8 +1,7 @@
 ---
 name: azure-keyvault-certificates-rust
-description: "Azure Key Vault Certificates SDK for Rust. Use for creating, importing, and managing certificates.
-Triggers: "keyvault certificates rust", "CertificateClient rust", "create certificate rust", "import certificate rust".
-"
+description: 'Azure Key Vault Certificates SDK for Rust. Use for creating, importing, and managing certificates.
+Triggers: , , , .'
 metadata:
   author: ncdevshiv
   version: "1.0"
@@ -10,6 +9,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: azure
+intent: build
+quality_score: 0.9
 ---
 
 

@@ -1,8 +1,7 @@
 ---
 name: azure-keyvault-keys-rust
-description: "Azure Key Vault Keys SDK for Rust. Use for creating, managing, and using cryptographic keys.
-Triggers: "keyvault keys rust", "KeyClient rust", "create key rust", "encrypt rust", "sign rust".
-"
+description: 'Azure Key Vault Keys SDK for Rust. Use for creating, managing, and using cryptographic keys.
+Triggers: , , , , .'
 metadata:
   author: ncdevshiv
   version: "1.0"
@@ -10,6 +9,9 @@ metadata:
   updated: 2026-02-25
 risk: unknown
 source: community
+cluster: azure
+intent: build
+quality_score: 0.9
 ---
 
 

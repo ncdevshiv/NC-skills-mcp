@@ -8,6 +8,9 @@ metadata:
   updated: 2026-02-25
 risk: safe
 source: https://github.com/K-Dense-AI/claude-scientific-skills
+cluster: ai
+intent: design
+quality_score: 0.5
 ---
 
 
